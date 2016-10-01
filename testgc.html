@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var SGResourceContainer = (function () {
+        function SGResourceContainer() {
+        }
+
+        /**
+         * 载入资源
+         */
+        SGResourceContainer.prototype.Load = function (cb) {
+            var that = this;
+            setTimeout(function () {
+                alert(1);
+                var x={a: 123,
+                    b: 33};
+                that.m_ResManifest={};
+                that.m_ResManifest["x"] = x;
+                cb();
+            }, 1000);
+        };
+        return SGResourceContainer;
+    })();
+
+    var g1;
+    var g2;
+    function a1() {
+        g1 = new SGResourceContainer();
+        g1.Load(function(){
+            alert(JSON.stringify( g1.m_ResManifest));
+        });
+    }
+    function a2() {
+        g1.Load(function(){
+            alert(JSON.stringify( g1.m_ResManifest));
+        });
+    }
+    function b() {
+        g1 = null;
+        g2 = null;
+    }
+</script>
+<button onclick="a1()">aa1</button>
+<button onclick="a2()">aa2</button>
+<button onclick="b()">bb</button>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+	{
+		"StateID": 1,
+		"Background": "bg",
+		"Entities":  [
+			{
+				"Name": "EntityT",
+				"ResKey": "grant",
+				"Type": "SpriteSheet",
+				"X": "SGApp.StageWidth / 2 - 82",
+				"Y": "SGApp.StageHeight / 2",
+				"AnimState": "run"
+			},
+			{
+				"Name": "EntityT2",
+				"ResKey": "grant",
+				"Type": "SpriteSheet",
+				"X": "SGApp.StageWidth / 2 - 82",
+				"Y": "1",
+				"WidthScale": 1.5,
+				"HeightScale": 1.5,
+				"AnimState": "jump"
+			}
+		],
+		"Components":  [
+			{
+				"Name": "BtnStart",
+				"ResKey": "btn1",
+				"Type": "Button",
+				"X": "50",
+				"Y": "50",
+				"TextResID": 104,
+				"FontSize": 15
+			}
+		]
+	},
+	{
+		"StateID": 2,
+		"Background": "bg",
+		"Entities":  [
+			{
+				"Name": "EntityT2",
+				"ResKey": "grant",
+				"Type": "SpriteSheet",
+				"X": "11",
+				"Y": "33"
+			}
+		]
+	}
+]

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>EaselJS: Simple SpriteSheet Example</title>
+
+    <link href="_assets/css/shared.css" rel="stylesheet" type="text/css"/>
+    <link href="_assets/css/examples.css" rel="stylesheet" type="text/css"/>
+    <!--<script src="_assets/js/examples.js"></script>-->
+
+    <script src="_assets/libs/preloadjs-NEXT.min.js"></script>
+    <script src="lib/easeljs-NEXT.min.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script src="lib/SGGlobal.js"></script>
+    <script src="lib/SGAppConfig.js"></script>
+    <script src="lib/SGResourceContainer.js"></script>
+    <script src="lib/SGEntity.js"></script>
+    <script src="lib/ACT/SGACTMachine.js"></script>
+    <script src="lib/SGApp.js"></script>
+    <!--<script src="Config/system/Resource/resource.js"></script>-->
+    <!-- We also provide hosted minified versions of all CreateJS libraries.
+       http://code.createjs.com -->
+
+    <script id="editable">
+        var stage, w, h;
+        var sky, grant;
+        var bitmapHelper;
+        var loader;
+        function init() {
+            SGApp.Init(function (err) {
+                if (err) {
+                    alert(err);
+                    return;
+                }
+
+
+            });
+        }
+
+
+    </script>
+</head>
+
+<body onload="init();">
+
+<header class="EaselJS">
+    <h1>Simple SpriteSheet Example</h1>
+
+    <p>A simple example of defining a <code>SpriteSheet</code> and playing it
+        back using <code>Sprite</code>.</p>
+    <!--<button onclick="aa()">start</button>-->
+</header>
+
+<div>
+    <canvas id="testCanvas" width="960" height="600"></canvas>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 此处存放该State的字符串资源 -->
+<StateRes>
+	<StrRes>
+		<Str ID="0">
+			<![CDATA[意犹未尽啊——每当Ending的时候。。
+饿忍不住再续它个尾啊哈哈哈。。。。。。。
+]]>
+		</Str>
+		<Str ID="102">
+			<![CDATA[     继续     ]]>
+		</Str>
+		<Str ID="103">
+			<![CDATA[    素啊哈哈    ]]>
+		</Str>
+		<Str ID="104">
+			<![CDATA[   Start！  ]]>
+		</Str>
+		<Str ID="105">
+			<![CDATA[啥]]>
+		</Str>
+	</StrRes>
+</StateRes>

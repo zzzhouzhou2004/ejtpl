@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionList>
+  <Version major="2" minor="0" revision="0" date="2011-8-16 15:00:00" />
+  <!--   此处显示用户个人配置的属性设置。-->
+  <!--   示例：<option key="settingName" value="settingValue"/> -->
+  <option key="DefaultFont" type="Font" value="SimSun" size="10.5" />
+  <option key="WindowBackColor" type="Color" value="255,254,234" />
+  <option key="DefaultControlHeight" type="int" value="20" />
+  <option key="DefaultControlWidth" type="int" value="60" />
+  <option key="TableCellMarginWidth" type="int" value="10" />
+  <option key="TableCellMarginHeight" type="int" value="10" />
+</optionList>

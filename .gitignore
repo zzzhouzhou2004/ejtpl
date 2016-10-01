@@ -1,0 +1,9 @@
+logs
+bower_components
+node_modules
+assets/tmp
+assets
+public/uploadUser
+tsconfig.json
+*.tern-project
+.idea

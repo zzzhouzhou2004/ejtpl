@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionList>
+  <Version major="2" minor="1" revision="2" date="2012-1-22 15:00:00" />
+  <!--   此处显示全局配置的属性设置。-->
+  <!--   示例：<option key="settingName" value="settingValue"/> -->
+  <!--  其它路径全是相对于config目录 -->
+  <!--<option key="FrmLogin.Text" value="登录Galaxy" />-->
+  <option key="MainProjectName" value="SGEntP" />
+  <option key="DlgRun.Text" value="Galaxy运行" />
+  <option key="HelpFile" value="" />
+  <option key="AppIcon" value="system\image\Galaxy.ico" />
+  <!--  控制启动Splash显示时间（毫秒） -->
+  <option key="SplashWaitTime" value="0" />
+  <!--  是否显示欢迎界面 -->
+  <!-- <option key="showwelcome" value="true" /> -->
+  <!--  用户管理模块 -->
+  <!-- <option RemoteFacadeSvc="UserManagerModule" value="Audit.GATE.SYS.UserManager.dll" /> -->
+  <!--  GATE配置工具 -->
+  <!-- <option key="GATEConfigModule" value="ASConfig.exe" /> -->
+  <!--  显示模式 -->
+  <option key="VideoMode" value="gl" />
+  <!--  语言区域 -->
+  <option key="LocaleID" value="2052" />
+  <!--  动画刷新速率FPS -->
+  <option key="AnimRateFPS" value="12.5" />
+  <!--  默认字体 -->
+  <option key="DefaultFont" value="wqy-microhei-lite.ttc" />
+  <!--  起始ACT -->
+  <option key="StartACT" value="0" />
+  <!--  起始ACTState -->
+  <option key="StartACTState" value="0" />
+  <!--  是否窗口背景透明模式 -->
+  <option key="TransparentWinBg" value="" />
+</optionList>

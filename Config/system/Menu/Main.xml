@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+	<siteMapNodes>
+		<siteMapNode title="窗口管理" nodeid="90010">
+			<siteMapNode title="显示功能树" nodeid="20142" />
+			<siteMapNode title="显示待办事项" nodeid="20143" />
+			<siteMapNode title="显示我的桌面" nodeid="20144" />
+		</siteMapNode>
+		<siteMapNode title="系统帮助" nodeid="A10012" alwaysvisible="true" >
+			<siteMapNode title="帮助" nodeid="30034" alwaysvisible="true" />
+			<siteMapNode title="关于" nodeid="30035" alwaysvisible="true" />
+		</siteMapNode>
+	</siteMapNodes>
+</siteMap>

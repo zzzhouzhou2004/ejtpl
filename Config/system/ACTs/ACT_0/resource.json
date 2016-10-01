@@ -1,0 +1,29 @@
+[
+	{
+		"Key": "grant",
+		"Src": "spritesheet_grant.png",
+		"framerate": 30,
+		"frames": {
+			"height": 292,
+			"count": 64,
+			"width": 165
+		},
+		"animations": {
+			"run": [0, 25, "run", 1.5],
+			"jump": [26, 63, "run"]
+		}
+	},
+	{
+		"Key": "btn1",
+		"Src": "spritesheet_button.png",
+		"frames": {
+			"width": 300,
+			"height": 100
+		},
+		"animations": {
+			"out": 0,
+			"over": 1,
+			"down": 2
+		}
+	}
+]
